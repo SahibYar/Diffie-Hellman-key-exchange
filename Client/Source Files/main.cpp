@@ -25,9 +25,6 @@ int main(int argc, char *argv[]) {
 		return -1;
 	}
 
-	char a;
-	std::cin >> a;
-
 	if (argc >= 2) 
 	{
 		if (strcmp(argv[1], "--help") == 0) 
